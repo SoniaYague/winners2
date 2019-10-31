@@ -9,11 +9,8 @@ output: html_document
 
 La historia del **automóvil** está marcada por la evolución del carruaje autopropulsado al concepto de vehículo como se entiende en la actualidad, que tuvo lugar entre los años 1951 y 1961, periodo en el que *Karl Benz* y *Gottlieb Daimler* vendieron sus primeros automóviles, los cuales ofrecían un rendimiento aceptable. En un principio, *Karl Benz* tenía la intención de producir automóviles, mientras que Daimler únicamente se centró en vender motores, con el propósito de financiar posteriores creaciones. El auto de Benz era superior en conjunto, consolidándose rápidamente como productor, lo que le permitió vender con éxito su modelo de tres ruedas, dando origen a la industria del automóvil. Por otro lado, el modelo del artefacto de Daimler no era tan acertado, aunque contaba con un eficiente motor que revolucionó la naciente industria automotriz.
 
-# Gráfica de línea e histograma
+# Histograma
 
 ```{r WorldPhones, echo =FALSE}
-barplot(WorldPhones[, 1], t = "b", lwd = 3, xlab = "años", ylab = "cantidad de coches", col = "steelblue")
-
-
-barplot(WorldPhones[, 1], t = "h", lwd = 3, xlab = "años", ylab = "cantidad de coches", col = "steelblue")
+barplot(WorldPhones[, 1], lwd = 3, xlab = "años", ylab = "cantidad de coches", col = "steelblue")
 ```
