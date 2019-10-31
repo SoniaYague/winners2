@@ -1,4 +1,4 @@
-#winners2
+# winners2
 ---
 Para realizar este proyecto, hemos elegido de shiny una plantilla, la que más nos ha gustado, a continuación hemos decidido representar en ella el número de coches en el mundo, pudiendo elegir qué continente visualizar en el gráfico. 
 
